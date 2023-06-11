@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap');
+
+body {
+  font-family: Playfair, Arial, sans-serif;
+  margin: 0px;
+  background-color: rgb(6, 66, 60);
+}
+
+#container {
+  max-width: 80%;
+  margin: 30px auto;
+  background: #313636;
+  padding: 0 0 20px 0;
+  margin-bottom: 10px;
+  border-radius: 18px;
+  font-size: 20px;
+  height: 800px;
+  color: aliceblue;
+}
+
+.boxEsquerda {
+  float: left;
+  width: 30%;
+  border: 2px solid black;
+  height: 380px;
+}
+
+.boxDireita {
+  float: right;
+  width: 30%;
+  border: 2px solid black;
+  height: 380px;
+}
+
+header {
+  height: 10em;
+  width: 100%;
+  top: 0;
+  border-radius: 18px 18px 0 0;
+  border: 1px solid rgba(53, 149, 187, 0.486);
+  background-image: url(imagem.jpg);
+  
+}
+header>div {
+  width: 50%;
+  background-color: hsla(240, 35%, 43%, 0.329);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 55px;
+  color: azure;
+}
+
+div {
+  margin-bottom: 10px;
+  padding-left: 15%;
+
+}
+
+.titulo {
+  padding: 0;
+}
+
+form input, form label, button, select{
+  display: block;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.form {
+  padding: 2em;
+}
+
+input {
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+input:disabled {
+  background-color: rgb(200, 207, 207);
+  color: black;
+}
+
+button {
+  display: block;
+  width:221px;
+  border-radius: 7px;
+  cursor: pointer;
+  background: #4d4b41;
+  height: 48px;
+  margin-left: 40px;
+  color: rgb(253, 246, 246);
+  font-size: 1.1em;
+}
+
+button:hover {
+  background-color: #8b897a;
+}

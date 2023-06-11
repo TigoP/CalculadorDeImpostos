@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculador de Impostos</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <section id="container">
+            <header>
+                <div class="titulo">
+                    <h1>Calculador de Impostos</h1> 
+                </div>
+            </header>            
+
+            <form action="" class="form">  
+
+                <div class="boxEsquerda">
+                    <label for="estado">Estado:</label>
+                    <select name="estado" id="estado"></select>
+
+                    <label for="quantidade">Quantidade:</label>
+                    <input type="number" id="quantidade">
+
+                    <label for="valorUnitario">Valor Unitário:</label>
+                    <input id="valorUnitario">
+
+                    <label for="Subtotal">Subtotal:</label>
+                    <input id="Subtotal" disabled>                    
+                </div>
+
+                <div class="boxDireita">
+                    <label for="impostoICMS">Imposto ICMS:</label>
+                    <input id="impostoICMS" disabled>
+
+                    <label for="impostoIPI">Imposto IPI (15%):</label>
+                    <input id="impostoIPI" disabled>
+
+                    <label for="impostoPIS">Imposto PIS:</label>
+                    <input id="impostoPIS" disabled>
+
+                    <label for="impostoCOFINS">impostoCOFINS:</label>
+                    <input id="impostoCOFINS" disabled>
+
+                    <label for="totalComImposto">Total Acumulado:</label>
+                    <input id="totalComImposto" disabled>
+
+                </div>
+
+            </form>
+
+            <button onclick="calcularImpostos()">Calcular</button>
+
+            <script src="script.js"></script>
+            
+        </section>        
+    </body>
+</html>
